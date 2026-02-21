@@ -3,12 +3,12 @@ import OutraLista from './components/OutraLista';
 
 function App() {
 
-  const meusItens = ['React', 'Vue', 'Angular']
+  const podium = ['1° - Massa', '2° - Alonso', '3° - Hamilton']
 
   return (
     <div className="App">
       <h1>Renderização de Listas</h1>
-      <OutraLista itens={meusItens}/>
+      <OutraLista itens={podium}/>
       <OutraLista itens={[]}/>
     </div>
   );

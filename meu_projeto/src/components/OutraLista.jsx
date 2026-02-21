@@ -1,7 +1,7 @@
 function OutraLista({ itens }) {
     return (
         <>
-            <h3>Lista de coisas boas:</h3>
+            <h3>Podium GP da Hungria 2016</h3>
             {itens.length > 0 ? (
                 itens.map((item, index) => (
                     <p key={index}>{item}</p>
